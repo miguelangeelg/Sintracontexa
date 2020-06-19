@@ -43,25 +43,43 @@ body {
     width: 320px;
   }
 }
+#title{
+  top: -126.5px; 
+  position: relative; 
+  width: 260px;
+  
+}
+#titulo{
+  text-align: center ;
+}
+.left img{
+  top: -160px;
+  margin-left: 60px;
+  }
 .left {
-  background: white;
-  height: calc(100% - 40px);
-  top: 20px;
+  background: #2c5024;
+  height: calc(100% - 60px);
+  top: 60px;
   position: relative;
-  width: 50%;
+  width: calc(100% - 250px);
 }
 @media (max-width: 767px) {
   .left {
     height: 100%;
-    left: 20px;
-    width: calc(100% - 40px);
+    left: 0px;
+    width: calc(100% - 1px);
     max-height: 270px;
   }
 }
 .login {
   font-size: 50px;
   font-weight: 900;
-  margin: 50px 40px 40px;
+  margin: 50px 0px 40px;
+  width: 82%;
+  box-shadow: 2px 11px 26px 0px rgba(0,0,0,0.75);
+  background-color: #33582b;
+  padding-left: 60px;
+  border-radius: 39px 0px 0px 0px;
 }
 .eula {
   color: #999;
@@ -70,11 +88,11 @@ body {
   margin: 40px;
 }
 .right {
-  background: #474A59;
+  background: rgb(68, 68, 66);
   box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
   color: #F1F1F2;
   position: relative;
-  width: 50%;
+  width: calc(100% - 1px);
 }
 @media (max-width: 767px) {
   .right {
@@ -120,15 +138,20 @@ input::-moz-focus-inner {
   border: 0; 
 }
 #submit {
-  color: #707075;
-  margin-top: 40px;
+  color: white;
+  background: #515560;
+  border-radius: 20px;
+  margin-top: 32.5px;
+  margin-left: 6.2px;
+  height: 48px;
   transition: color 300ms;
+  width: 228px;
 }
 #submit:focus {
   color: #f2f2f2;
 }
 #submit:active {
-  color: #d0d0d2;
+  color: #9a9ab4;
 }
 
 input[type=number]::-webkit-outer-spin-button,
